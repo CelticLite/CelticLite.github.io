@@ -4,7 +4,7 @@
 
 # Site
 title: CelticLite Personal Website
-subtitle: 'my stuff'
+description: 'my stuff'
 keywords:
 author: CelticLite
 language: en
@@ -101,7 +101,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+##theme: cactus
+remote_theme: pages-themes/time-machine@v0.2.0
+plugins:
+- jekyll-remote-theme 
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
